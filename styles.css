@@ -1,0 +1,166 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    height: 450px;
+}
+
+.header{
+    background-color: #1f2937;
+    color: #f9fAf8;
+    padding: 10px 370px 50px 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+}
+
+.logo{
+    flex: 2;
+}
+
+    .logo h1{
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+
+.nav-bar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.nav-item{
+    flex: 1;
+}
+
+.lobby{
+    display: flex;
+    margin: auto 0;
+}
+
+.info h1{
+    font-size: 48px;   
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.info p{
+    margin-bottom: 10px;
+}
+
+.info, .picture{
+    flex: 1;
+}
+
+.picture{
+    background-color: #e5e7eba5;
+}
+
+.main{
+    padding: 0 450px;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: bolder #1f2937;
+}
+
+.images{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#img1{
+    width: 150px;
+    height: 150px;
+    border: 6px solid #3882f6;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.quote-div{
+    background-color: #e5e7eb;
+    padding: 0 400px;
+    display: flex;
+    align-items: center;
+}
+
+.quote i{
+    font-size: 32px;
+    font-weight: light; 
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote p{
+    text-align: right;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.cta-div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta{
+    background-color: #3882f6;
+    color: aliceblue;
+    padding: 30px 105px;
+    display: flex;
+    max-height: 60px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.cta-text h3, p{
+    margin: 2px;
+    padding: 0;
+}
+
+.cta-text p{
+    font-size: 18px;
+}
+
+.cta-text{
+    flex: 3;
+}
+
+.footer-div{
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.footer{
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-btn{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9fAf8;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
